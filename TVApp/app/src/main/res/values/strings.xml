@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TV App</string>
+    <string name="remember">com.course.tvapp.remember</string>
+    <string name="name">com.course.tvapp.name</string>
+    <string name="password">com.course.tvapp.password</string>
+
+</resources>

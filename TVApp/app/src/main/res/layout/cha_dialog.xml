@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Position of program" />
+
+    <EditText
+        android:id="@+id/edit_username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        android:hint="Channel" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_username"
+        android:layout_alignParentStart="true"
+        android:inputType="time"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="42dp"
+        android:hint="Time" />
+
+    <EditText
+        android:id="@+id/edit_password2"
+        android:layout_width="395dp"
+        android:inputType="textMultiLine"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_username"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="90dp"
+        android:hint="Program" />
+
+
+
+
+</RelativeLayout>
